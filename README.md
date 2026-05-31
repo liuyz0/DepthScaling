@@ -1,6 +1,6 @@
 # Neural Inverse Depth Scaling: Most Layers Update Most Tokens via Ensemble Averaging
 
-This repository contains code to reproduce the experiments in the paper [Inverse Depth Scaling From Most Layers Being Similar](https://arxiv.org/abs/2602.05970).
+This repository contains code to reproduce the experiments in the paper [Inverse Depth Scaling From Most Layers Being Similar](https://arxiv.org/abs/2602.05970), Yizhou Liu, Sara Kangaslahti, Ziming Liu, and Jeff Gore, ICML 2026.
 
 ## Overview
 
@@ -21,10 +21,12 @@ LLM hidden state experiments can be found in [LLMs](./LLMs), whose description i
 |Experiment| Where in [Paper](https://arxiv.org/abs/2602.05970) | Code |
 |--|--|--|
 |LLM Evaluations|Figure 2, a-e | [LLMs folder](./LLMs/)|
-|Chinchilla Data Fitting|Figure 2f| [Scaling folder](./Scaling)|
+|Chinchilla Data Fitting|Figure 2f| [Scaling folder](./Scaling) fit-x.ipynb|
 |Toy Model | Figure 3b and Figure 4c |[exp-9](./exp/exp-9.py) and [exp-9-1](./exp/exp-9-1.py)|
 |Toy Model Longer Training| Figure 4, a and b |[exp-9-3](./exp/exp-9-3.py) |
 |Toy Model With MSE and Longer Training| Figure 5|[exp-9-6](./exp/exp-9-6.py) |
+|Causal Trace| Figure 6|[causal-trace folder](./causal-trace/) |
+|Additional Analysis on Fitting| Appendix B.3 | [Scaling folder](./Scaling) |
 |Toy Model With High-order Intergration Scheme| Appendix C.3 | [exp-9-4](./exp/exp-9-4.py) |
 
 ## Citation
